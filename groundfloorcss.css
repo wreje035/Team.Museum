@@ -1,0 +1,11 @@
+a {
+	cursor: pointer;	
+}
+.link span {
+  text-align: center;
+  display:block;
+}
+
+.link {
+  display: inline-block;
+}
