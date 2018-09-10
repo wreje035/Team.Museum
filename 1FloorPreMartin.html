@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="modal.css">
+		<script type="text/javascript" src="modal.js"></script>
+<title>Ground Floor </title>
+</head>
+
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -551,14 +560,16 @@
 		</g>
 	</g>
 </g>
-<image style="overflow:visible;opacity:0.28;enable-background:new    ;" width="4491" height="3138" xlink:href="../../../../Downloads/5a1bb0de2917f8.9827711015117641901683.png"  transform="matrix(2.026275e-02 0 0 2.026275e-02 475 709.4155)">
-</image>
 <image style="overflow:visible;opacity:0.13;enable-background:new    ;" width="700" height="631" id="butterfly" xlink:href="Pictures/Butterfly_16_transparent_background.png"  transform="matrix(0.1351 0 0 0.1351 261.8446 439.6667)">
 </image>
-<image style="overflow:visible;opacity:0.18;enable-background:new    ;" width="600" height="600" id="science" xlink:href="../../../../Downloads/kisspng-atom-chemistry-molecule-clip-art-blue-energy-cliparts-5aac3a5e965a75.1703091915212365746159.png"  transform="matrix(0.2149 0 0 0.2149 191 533)">
+<image style="overflow:visible;opacity:0.18;enable-background:new    ;" width="600" height="600" id="science" xlink:href="Pictures/scienceatom.png"  transform="matrix(0.2149 0 0 0.2149 191 533)">
 </image>
+<image style="overflow:visible;opacity:0.18;enable-background:new    ;" width="300" height="300" id="science" xlink:href="Pictures/wavebackground.png"  transform="matrix(0.4000 0 0 0.4000 480 680)">
+</image>
+<image style="overflow:visible;opacity:0.33;enable-background:new    ;" width="128" height="128" xlink:href="Pictures/Marae-icon.png"  transform="matrix(0.7917 0 0 0.7917 93.6667 687.6667)">
+		</image>
 <g>
-	<g id="WAKA">
+	<g id="WAKA" onclick="popup('wakaModal')">
 		<rect x="205.5" y="740.5" width="20" height="20"/>
 		<g>
 			<g>
@@ -588,7 +599,7 @@
 			</g>
 		</g>
 	</g>
-	<g id="_x31_877">
+	<g id="_x31_877" onclick="popup('eighteenModal')">
 		<rect x="131.5" y="590.5" width="18" height="18"/>
 		<g>
 			<g>
@@ -608,7 +619,7 @@
 			</g>
 		</g>
 	</g>
-	<g id="SpecialExhibitions">
+	<g id="SpecialExhibitions" onclick="popup('specialModal')">
 		<rect x="517" y="631" class="st9" width="15" height="15"/>
 		<g>
 			<g>
@@ -628,7 +639,7 @@
 			</g>
 		</g>
 	</g>
-	<g id="BarclayTheatre">
+	<g id="BarclayTheatre" onclick="popup('barclayModal')">
 		<rect x="430" y="625" width="15" height="15"/>
 		<g>
 			<g>
@@ -648,7 +659,7 @@
 			</g>
 		</g>
 	</g>
-	<g id="WARRIOR">
+	<g id="WARRIOR" onclick="popup('pacificModal')">
 		<g id="svgg_1_">
 			<path id="path0_1_" d="M553,755v10h10h10v-10v-10h-10h-10V755 M558.2,747.2c0.1,0.1,0.7,0.1,0.8,0.1c0.1-0.1,0.6,0,0.7,0.1
 				c0.1,0.1,0.2,0.1,0.2,0.1c0.1,0,0.3,0.1,0.4,0.2c0.1,0.2,0.2,0.2,0.3,0.2h0.2h0.2c0,0,0,0,0.1,0.1s0.2,0.1,0.4,0.1
@@ -1087,7 +1098,7 @@
 				c0,0,0.1,0,0.1-0.1c0.1-0.1,0.1-0.1,0.6-0.1C563.1,749.9,563.1,749.9,563.2,750"/>
 		</g>
 	</g>
-	<g id="TUHURA">
+	<g id="TUHURA" onclick="popup('tuhuraModal')">
 		<rect x="260" y="602" width="18" height="18"/>
 		<g>
 			<g>
@@ -1230,7 +1241,7 @@
 			</g>
 		</g>
 	</g>
-	<g id="TROPICALFOREST">
+	<g id="TROPICALFOREST" onclick="popup('tropicalModal')">
 		<rect x="290" y="487" class="st14" width="20" height="20"/>
 		<g>
 			<g>
@@ -1252,7 +1263,7 @@
 			</g>
 		</g>
 	</g>
-	<g id="PLANETARIUM">
+	<g id="PLANETARIUM" onclick="popup('planetariumModal')">
 		<rect x="436" y="570" width="15" height="15"/>
 		<g>
 			<g>
@@ -1271,7 +1282,7 @@
 			</g>
 		</g>
 	</g>
-	<g id="BEAUTIFULSCIENCE">
+	<g id="BEAUTIFULSCIENCE" onclick="popup('beautifulModal')">
 		<rect x="375" y="623" class="st9" width="15" height="15"/>
 		<g>
 			<g>
@@ -4328,11 +4339,151 @@
 					<text transform="matrix(1 0 0 1 396.9209 789.5361)" class="st502 st507">ATRIUM</text>
 				</g>
 			</g>
-		</g>
-		
-			<image style="overflow:visible;opacity:0.33;enable-background:new    ;" width="128" height="128" xlink:href="Pictures/Marae-icon.png"  transform="matrix(0.7917 0 0 0.7917 93.6667 687.6667)">
-		</image>
+		</g>	
 	</g>
 </g>
 </svg>
 
+<div id="content">
+			<!-- The Waka Modal -->
+			<div id="wakaModal" class="modal">
+				<div class="modal-content">
+					<span class="close-button">&times;</span>
+					<h4 align="center">TANGATA WHENUA</h4>
+					<div class="caption">Taoka (treasures) of Kāi Tahu and other iwi (tribes) throughout Aotearoa New Zealand</div>
+					<img src="Pictures/waka.jpg" alt="Waka">
+					<a href="http://otagomuseum.nz/whats-on/see/gallery/tangata-whenua" itemprop="url"><span itemprop="name">Visit the museum site for more info</span></a>
+				</div>
+			</div>
+			
+			<!-- The TUHURA Modal -->
+			<div id="tuhuraModal" class="modal">
+				<div class="modal-content">
+					<span class="close-button">&times;</span>
+					<h4 align="center">TUHURA OTAGO COMMUNITY TRUST SCIENCE CENTRE</h4>
+					<div class="caption">DISCOVERY STARTS HERE
+Visit Tūhura, our stunning new science engagement development. The Tūhura Otago Community Trust Science Centre has over 45 hands-on interactives, including a giant DNA-inspired helical slide, and a three-tier tropical butterfly enclosure.
+
+Your science centre admission ticket also provides access to the multi-screen, laser-activated, Beautiful Science gallery. You can also combine your science centre experience with a planetarium show with our special Tūhura combo deals.</div>
+					<img src="Pictures/tuhura.jpg" alt="Tuhura">
+					<a href="http://otagomuseum.nz/whats-on/do/tuhura/" itemprop="url"><span itemprop="name">Visit the museum site for more info</span></a>
+				</div>
+			</div>
+			
+			<!-- The Tropical Forest Modal -->
+			<div id="tropicalModal" class="modal">
+				<div class="modal-content">
+					<span class="close-button">&times;</span>
+					<h4 align="center">TROPICAL FOREST</h4>
+					<div class="caption">Tūhura’s Tropical Forest is the only three-tier live butterfly experience in Australasia! 
+At around 28 degrees and 75% humidity year-round, it’s warm and welcoming. 
+
+Encounter exotic butterflies, giant stick insects, tarantulas, terrapins and other rainforest dwellers –  it’s a world away but right here in Dunedin. 
+
+Buy your Tūhura science centre tickets at the Otago Museum Shop.</div>
+					<img src="Pictures/tropical.jpg" alt="Tropical">
+					<a href="http://otagomuseum.nz/whats-on/do/tuhura/tropical-forest/" itemprop="url"><span itemprop="name">Visit the museum site for more info</span></a>
+				</div>
+			</div>
+			
+			<!-- The Planetarium Modal -->
+			<div id="planetariumModal" class="modal">
+				<div class="modal-content">
+					<span class="close-button">&times;</span>
+					<h4 align="center">PERPETUAL GUARDIAN PLANETARIUM</h4>
+					<div class="caption">Tour the universe in the laid-back comfort in our state-of-the-art dome. Be immersed in the deep past or alien worlds, or closer to home, take a guided look at our southern skies.
+Book your planetarium show online or at the Otago Museum Shop.
+Visit both the Perpetual Guardian Planetarium and Tūhura Otago Community Trust Science Centre, which includes our iconic butterfly-filled Tropical Forest, with a combo deal!</div>
+					<img src="Pictures/planetarium.jpg" alt="Planetarium">
+					<a href="http://otagomuseum.nz/whats-on/do/tuhura/planetarium/" itemprop="url"><span itemprop="name">Visit the museum site for more info</span></a>
+				</div>
+			</div>
+			
+			<!-- The Beautiful Science Modal -->
+			<div id="beautifulModal" class="modal">
+				<div class="modal-content">
+					<span class="close-button">&times;</span>
+					<h4 align="center">	BEAUTIFUL SCIENCE GALLERY</h4>
+					<div class="caption">Tour the universe in the laid-back comfort in our state-of-the-art dome. Be immersed in the deep past or alien worlds, or closer to home, take a guided look at our southern skies.
+Book your planetarium show online or at the Otago Museum Shop.
+Visit both the Perpetual Guardian Planetarium and Tūhura Otago Community Trust Science Centre, which includes our iconic butterfly-filled Tropical Forest, with a combo deal!</div>
+					<img src="Pictures/beautiful.jpg" alt="Beautiful">
+					<a href="http://otagomuseum.nz/whats-on/do/tuhura/planetarium/" itemprop="url"><span itemprop="name">Visit the museum site for more info</span></a>
+				</div>
+			</div>
+			
+			<!-- The Pacific Cultures Modal -->
+			<div id="pacificModal" class="modal">
+				<div class="modal-content">
+					<span class="close-button">&times;</span>
+					<h4 align="center">PACIFIC CULTURES</h4>
+					<div class="caption">People and cultures across Oceania
+ History
+
+New Zealand has strong links, both past and present, with the peoples and cultures of Polynesia, Micronesia and Melanesia.
+
+This gallery celebrates these links through a significant collection of objects, including the only moai statue from Rapa Nui (Easter Island) in New Zealand.
+</div>
+					<img src="Pictures/pacific.jpg" alt="Pacific">
+					<a href="http://otagomuseum.nz/whats-on/see/gallery/pacific-cultures" itemprop="url"><span itemprop="name">Visit the museum site for more info</span></a>
+				</div>
+			</div>
+			
+				<!-- The Special Exhibitions Gallery Modal -->
+			<div id="specialModal" class="modal">
+				<div class="modal-content">
+					<span class="close-button">&times;</span>
+					<h4 align="center">SPECIAL EXHIBITIONS GALLERY
+					The exhibition 150 years in the making.
+
+Otago Museum marks its 150th anniversary on 12 September. To celebrate, we're thrilled to announce est. 1868.
+					</h4>
+					<div class="caption"></div>
+					<img src="Pictures/special.png" alt="Special">
+					<a href="http://otagomuseum.nz/whats-on/see/exhibition/est-1868" itemprop="url"><span itemprop="name">Visit the museum site for more info</span></a>
+				</div>
+			</div>
+			
+				<!-- The Barclay Theatre Modal -->
+			<div id="barclayModal" class="modal">
+				<div class="modal-content">
+					<span class="close-button">&times;</span>
+					<h4 align="center">BARCLAY THEATRE</h4>
+					<div class="caption">This comfortable, contemporary theatre with fixed lecture-style seating links to the Museum Atrium.
+
+Suitable for:
+
+Conferences; lectures; presentations.
+
+Capacity:
+
+Theatre: 72</div>
+					<img src="Pictures/barclay.jpg" alt="Barclay">
+					<a href="http://otagomuseum.nz/venues/venue/barclay-theatre" itemprop="url"><span itemprop="name">Visit the museum site for more info</span></a>
+				</div>
+			</div>
+			
+					<!-- The 1877 Gallery Modal -->
+			<div id="eighteenModal" class="modal">
+				<div class="modal-content">
+					<span class="close-button">&times;</span>
+					<h4 align="center">1877 GALLERY</h4>
+					<div class="caption">This comfortable, contemporary theatre with fixed lecture-style seating links to the Museum Atrium.
+
+Suitable for:
+
+Conferences; lectures; presentations.
+
+Capacity:
+
+Theatre: 72</div>
+					<img src="Pictures/1877.jpg" alt="1877">
+					<a href="http://otagomuseum.nz/venues/other-occasions/" itemprop="url"><span itemprop="name">Visit the museum site for more info</span></a>
+				</div>
+			</div>
+			
+			
+			</div>
+</body>
+
+</script>

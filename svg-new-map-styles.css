@@ -1,0 +1,202 @@
+<style>
+                .cls-1,
+                .cls-10,
+                .cls-11,
+                .cls-2,
+                .cls-23,
+                .cls-3,
+                .cls-8,
+                .cls-9 {
+                    fill: none;
+                }
+                
+                .cls-2 {
+                    clip-path: url(#clip-path);
+                }
+                
+                .cls-22,
+                .cls-3 {
+                    clip-path: url(#clip-path-2);
+                }
+                
+                .cls-4,
+                .cls-5,
+                .cls-6 {
+                    fill: #ccc;
+                }
+                
+                .cls-4 {
+                    stroke: #231f20;
+                    stroke-linecap: round;
+                }
+                
+                .cls-10,
+                .cls-11,
+                .cls-13,
+                .cls-14,
+                .cls-4,
+                .cls-5,
+                .cls-8,
+                .cls-9 {
+                    stroke-miterlimit: 10;
+                }
+                
+                .cls-13,
+                .cls-14,
+                .cls-23,
+                .cls-5,
+                .cls-6,
+                .cls-7 {
+                    stroke: #000;
+                }
+                
+                .cls-6 {
+                    stroke-width: 1.08px;
+                }
+                
+                .cls-7 {
+                    fill: #4d4d4d;
+                    stroke-width: 0.94px;
+                }
+                
+                .cls-8,
+                .cls-9 {
+                    stroke: #ccc;
+                }
+                
+                .cls-8 {
+                    stroke-width: 2px;
+                }
+                
+                .cls-9 {
+                    stroke-width: 3px;
+                }
+                
+                .cls-10,
+                .cls-11 {
+                    stroke: red;
+                }
+                
+                .cls-11 {
+                    stroke-dasharray: 4.33 4.33;
+                }
+                
+                .cls-12,
+                .cls-14 {
+                    fill: #fff;
+                }
+                
+                .cls-13,
+                .cls-14 {
+                    stroke-width: 0.25px;
+                }
+                
+                .cls-15 {
+                    fill: #5f5f5f;
+                }
+                
+                .cls-16 {
+                    fill: #8f8f8f;
+                }
+                
+                .cls-17 {
+                    fill: #bfbfbf;
+                }
+                
+                .cls-18 {
+                    fill: #030104;
+                }
+                
+                .cls-19 {
+                    fill: #010002;
+                }
+                
+                .cls-20 {
+                    clip-path: url(#clip-path-18);
+                }
+                
+                .cls-21 {
+                    clip-path: url(#clip-path-20);
+                }
+                
+                .cls-23 {
+                    stroke-width: 0.94px;
+                }
+                
+                .cls-24,
+                .cls-25,
+                .cls-29,
+                .cls-31,
+                .cls-37,
+                .cls-38 {
+                    isolation: isolate;
+                }
+                
+                .cls-25 {
+                    font-size: 10px;
+                }
+                
+                .cls-25,
+                .cls-29,
+                .cls-31,
+                .cls-37,
+                .cls-38 {
+                    font-family: Avenir-Book, Avenir;
+                }
+                
+                .cls-26 {
+                    letter-spacing: -0.07em;
+                }
+                
+                .cls-27 {
+                    letter-spacing: -0.01em;
+                }
+                
+                .cls-28 {
+                    letter-spacing: 0em;
+                }
+                
+                .cls-29 {
+                    font-size: 8px;
+                }
+                
+                .cls-30 {
+                    letter-spacing: -0.07em;
+                }
+                
+                .cls-31 {
+                    font-size: 9px;
+                }
+                
+                .cls-32 {
+                    letter-spacing: -0.01em;
+                }
+                
+                .cls-33 {
+                    letter-spacing: -0.01em;
+                }
+                
+                .cls-34 {
+                    letter-spacing: -0.07em;
+                }
+                
+                .cls-35 {
+                    letter-spacing: -0.09em;
+                }
+                
+                .cls-36 {
+                    letter-spacing: -0.07em;
+                }
+                
+                .cls-37 {
+                    font-size: 4px;
+                }
+                
+                .cls-38 {
+                    font-size: 6px;
+                }
+                
+                .cls-39 {
+                    letter-spacing: -0.07em;
+                }
+            </style>

@@ -1,0 +1,114 @@
+body {
+  font-family: "Abel", sans-serif;
+  background: #373E48;
+  color: #B6DADD;
+}
+
+h2 {
+  font-weight: normal;
+  text-align: left;
+  margin-top: 2vh;
+}
+
+#map {
+  margin-top: 5vh;
+  width: 90vw;
+  height: 90vh;
+  margin-left: 5vw;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+  position: absolute;
+}
+
+#dialog {
+  display: block;
+}
+
+#usa, #india, #eu, #china {
+  opacity: 0;
+}
+
+
+
+.airplane, .eye, .hotspot, .text-museum {
+  cursor: pointer;
+  padding: 20px;
+}
+
+.text-museum {
+  opacity: 0;
+  display: none;
+}
+
+.text-museum-title {
+  float: left;
+}
+
+.show {
+    opacity: 1;
+    display: block;
+}
+
+#room-shape {
+  stroke-width: 0.5;
+  stroke-opacity: 0.6;
+}
+
+.text-info {
+  background: #23272D;
+  padding: 20px;
+  max-width: 350px;
+  border: 1px solid #B6DADD;
+  position: absolute;
+  left: 31.58vw;
+  top: 50vh;
+}
+.text-info table {
+  margin-top: 10px;
+  clear: both;
+  float: left;
+}
+.text-info td {
+  width: 15%;
+  height: 30px;
+  vertical-align: top;
+}
+.text-info td:first-child {
+  font-weight: bold;
+}
+.text-info h2 {
+  margin: 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #7B848E;
+}
+
+.x {
+  position: relative;
+  float: right;
+  fill: #B6DADD;
+  width: 38px;
+  height: 38px;
+  left: 0;
+  top: 0;
+/*  opacity: 0;*/
+  cursor: pointer;
+  display: block;
+}
+
+.x:hover {
+    fill: red;
+}
+
+a {
+    color: azure;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
