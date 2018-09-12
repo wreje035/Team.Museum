@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<select id="mySelect" onchange="myFunction()">
+  <option id="GFloor" value="GFloor">Ground Floor</option>
+  <option value="1Floor">Level 1</option>
+  <option value="2Floor">Level 2</option>
+  <option value="AFloor">Animal Attic</option>
+</select>
+
+<div id="GroundFloor" src= "GFloor.html">
+
+<script>
+function myFunction() {
+var floor = document.getElementById("mySelect").value
+ alert(floor);
+ 
+//if (floor == document.getElementById("GFloor"){
+
+//document.getElementById("GroundFloor").style.display = "block";
+   
+//}
+}
+</script>
+ 
+</body>
+</html>
