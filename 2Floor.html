@@ -6,8 +6,18 @@
         <script type="text/javascript" src="modal.js"></script>
         <title>2/3 Floor </title>
     </head>
-
     <body>
+        <!-- Drop Down Box for Floor Selection -->
+        <form>
+            <select name="list" id="list" accesskey="t">
+                <option value='none' selected>Choose a Floor</option>
+                <option value="GFloor.html">Ground</option>
+                <option value="1Floor.html">First</option>
+                <option value="2Floor.html">Second/Third</option>
+                <option value="AAFloor.html">Attic</option>
+            </select>
+            <input type=button value="Go" onclick="goToNewPage()" />
+        </form>
 
         <svg xmlns="http://www.w3.org/2000/svg" id="map" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 606.94 426.11">
         <defs>

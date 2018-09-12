@@ -6,9 +6,19 @@
         <script type="text/javascript" src="modal.js"></script>
         <title>Ground Floor</title>
     </head>
-
     <body>
-
+        <!-- Drop Down Box for Floor Selection -->
+        <form>
+            <select name="list" id="list" accesskey="t">
+                <option value='none' selected>Choose a Floor</option>
+                <option value="GFloor.html">Ground</option>
+                <option value="1Floor.html">First</option>
+                <option value="2Floor.html">Second/Third</option>
+                <option value="AAFloor.html">Attic</option>
+            </select>
+            <input type=button value="Go" onclick="goToNewPage()" />
+        </form>
+        
         <svg xmlns="http://www.w3.org/2000/svg" id="map" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 461.5 298.43">
         <defs>
         <style>
@@ -329,40 +339,40 @@
                     <li>03 474 7474</li>
                     <li> mail@otagomuseum.nz</li>
                 </ul>
-            
-            <img src="Pictures/info.jpg" alt="Information">
-            <a href="https://otagomuseum.nz/visit/opening-hours/" itemprop="url"><span itemprop="name">Visit the museum site for more info</span></a>
+
+                <img src="Pictures/info.jpg" alt="Information">
+                <a href="https://otagomuseum.nz/visit/opening-hours/" itemprop="url"><span itemprop="name">Visit the museum site for more info</span></a>
+            </div>
+        </div>
+
+        <!-- The Ticket Modal -->
+        <div id="ticketModal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h4 align="center">PURCHASE TICKETS HERE</h4>
+                <h5>ADMISSION</h5>
+                <div class="caption"> Entry to the Museum and the galleries is free.
+
+                    This does not include Tūhura, which incorporates the Otago Community Trust Science Centre, the Perpetual Guardian Planetarium or the Beautiful Science gallery. Prices are below.</div>
+                <img src="Pictures/tickets.jpg" alt="Tickets">
+                <a href="https://otagomuseum.nz/visit/opening-hours/" itemprop="url"><span itemprop="name">Visit the museum site for more info</span></a>
+            </div>
+        </div>
+
+        <!-- The Accessibility Modal -->
+        <div id="accessModal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h4 align="center">ACCESSIBILITY</h4>
+                <div class="caption">Galleries and exhibitions are accessible by wheelchair and pram. 
+                    If you need our free wheelchair, just ask at the Info Desk.
+
+                    The Museum offers baby changing facilities. There is a play area next to the Café.</div>
+                <img src="Pictures/access.jpg" alt="Access">
+                <a href="https://otagomuseum.nz/visit/access/" itemprop="url"><span itemprop="name">Visit the museum site for more info</span></a>
+            </div>
         </div>
     </div>
-
-    <!-- The Ticket Modal -->
-    <div id="ticketModal" class="modal">
-        <div class="modal-content">
-            <span class="close-button">&times;</span>
-            <h4 align="center">PURCHASE TICKETS HERE</h4>
-            <h5>ADMISSION</h5>
-            <div class="caption"> Entry to the Museum and the galleries is free.
-
-                This does not include Tūhura, which incorporates the Otago Community Trust Science Centre, the Perpetual Guardian Planetarium or the Beautiful Science gallery. Prices are below.</div>
-            <img src="Pictures/tickets.jpg" alt="Tickets">
-            <a href="https://otagomuseum.nz/visit/opening-hours/" itemprop="url"><span itemprop="name">Visit the museum site for more info</span></a>
-        </div>
-    </div>
-
-    <!-- The Accessibility Modal -->
-    <div id="accessModal" class="modal">
-        <div class="modal-content">
-            <span class="close-button">&times;</span>
-            <h4 align="center">ACCESSIBILITY</h4>
-            <div class="caption">Galleries and exhibitions are accessible by wheelchair and pram. 
-                If you need our free wheelchair, just ask at the Info Desk.
-
-                The Museum offers baby changing facilities. There is a play area next to the Café.</div>
-            <img src="Pictures/access.jpg" alt="Access">
-            <a href="https://otagomuseum.nz/visit/access/" itemprop="url"><span itemprop="name">Visit the museum site for more info</span></a>
-        </div>
-    </div>
-</div>
 </body>
 
 </script>

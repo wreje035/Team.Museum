@@ -6,6 +6,18 @@
         <script type="text/javascript" src="modal.js"></script>
         <title>First Floor </title>
     </head>
+    <body>
+         <!-- Drop Down Box for Floor Selection -->
+    <form>
+        <select name="list" id="list" accesskey="t">
+          <option value='none' selected>Choose a Floor</option>
+                <option value="GFloor.html">Ground</option>
+                <option value="1Floor.html">First</option>
+                <option value="2Floor.html">Second/Third</option>
+                <option value="AAFloor.html">Attic</option>
+        </select>
+        <input type=button value="Go" onclick="goToNewPage()" />
+    </form>
 
     <svg xmlns="http://www.w3.org/2000/svg" id="map" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 597.04 406">
     <defs>
@@ -174,6 +186,8 @@
         <rect class="cls-1" x="492.33" y="680.33" width="16.94" height="16.94"/>
     </clipPath>
     </defs>
+
+
     <title>First Floor</title>
     <g id="Outline">
     <rect class="cls-2" x="60.5" y="0.5" width="74" height="73"/>
@@ -412,130 +426,130 @@
 
                 <h5 class="ticketWarning">TICKETS MUST BE PURCHASED FROM THE GROUND FLOOR RECEPTION</h5> 
                 <div class="caption">DISCOVERY STARTS HERE</div>
-                        <p></p>
-                        <p>Visit Tūhura, our stunning new science engagement development. The Tūhura Otago Community Trust Science Centre has over 45 hands-on interactives, including a giant DNA-inspired helical slide, and a three-tier tropical butterfly enclosure.</p>
+                <p></p>
+                <p>Visit Tūhura, our stunning new science engagement development. The Tūhura Otago Community Trust Science Centre has over 45 hands-on interactives, including a giant DNA-inspired helical slide, and a three-tier tropical butterfly enclosure.</p>
 
-                        <p>Your science centre admission ticket also provides access to the multi-screen, laser-activated, Beautiful Science gallery. You can also combine your science centre experience with a planetarium show with our special Tūhura combo deals.</p>
-                        <img src="Pictures/tuhura.jpg" alt="Tuhura">
-                        <a href="http://otagomuseum.nz/whats-on/do/tuhura/" itemprop="url"><span itemprop="name">Visit the museum site for more info</span></a>
-                    </div>
-                </div>
-            
-                <!-- The Tropical Forest Modal -->
-                <div id="tropicalModal" class="modal">
-                    <div class="modal-content">
-                        <span class="close-button">&times;</span>
-                        <h4 align="center">TROPICAL FOREST</h4>
-                        <h5 class="ticketWarning">TICKETS MUST BE PURCHASED FROM THE GROUND FLOOR RECEPTION</h5>
-                        <div class="caption">Tūhura’s Tropical Forest is the only three-tier live butterfly experience in Australasia! 
-                            At around 28 degrees and 75% humidity year-round, it’s warm and welcoming. 
-
-                            Encounter exotic butterflies, giant stick insects, tarantulas, terrapins and other rainforest dwellers –  it’s a world away but right here in Dunedin. 
-
-                            Buy your Tūhura science centre tickets at the Otago Museum Shop.</div>
-                        <img src="Pictures/tropical.jpg" alt="Tropical">
-                        <a href="http://otagomuseum.nz/whats-on/do/tuhura/tropical-forest/" itemprop="url"><span itemprop="name">Visit the museum site for more info</span></a>
-                    </div>
-                </div>
-
-                <!-- The Planetarium Modal -->
-                <div id="planetariumModal" class="modal">
-                    <div class="modal-content">
-                        <span class="close-button">&times;</span>
-                        <h4 align="center">PERPETUAL GUARDIAN PLANETARIUM</h4>
-                        <h5 class="ticketWarning">TICKETS MUST BE PURCHASED FROM THE GROUND FLOOR RECEPTION</h5>
-                        <div class="caption">Tour the universe in the laid-back comfort in our state-of-the-art dome. Be immersed in the deep past or alien worlds, or closer to home, take a guided look at our southern skies.
-                            Book your planetarium show online or at the Otago Museum Shop.
-                            Visit both the Perpetual Guardian Planetarium and Tūhura Otago Community Trust Science Centre, which includes our iconic butterfly-filled Tropical Forest, with a combo deal!</div>
-                        <img src="Pictures/planetarium.jpg" alt="Planetarium">
-                        <a href="http://otagomuseum.nz/whats-on/do/tuhura/planetarium/" itemprop="url"><span itemprop="name">Visit the museum site for more info</span></a>
-                    </div>
-                </div>
-
-                <!-- The Beautiful Science Modal -->
-                <div id="beautifulModal" class="modal">
-                    <div class="modal-content">
-                        <span class="close-button">&times;</span>
-                        <h4 align="center">BEAUTIFUL SCIENCE GALLERY</h4>
-                        <h5 class="ticketWarning">TICKETS MUST BE PURCHASED FROM THE GROUND FLOOR RECEPTION</h5>
-                        <div class="caption">Tour the universe in the laid-back comfort in our state-of-the-art dome. Be immersed in the deep past or alien worlds, or closer to home, take a guided look at our southern skies.
-                            Book your planetarium show online or at the Otago Museum Shop.
-                            Visit both the Perpetual Guardian Planetarium and Tūhura Otago Community Trust Science Centre, which includes our iconic butterfly-filled Tropical Forest, with a combo deal!</div>
-                        <img src="Pictures/beautiful.jpg" alt="Beautiful">
-                        <a href="http://otagomuseum.nz/whats-on/do/tuhura/planetarium/" itemprop="url"><span itemprop="name">Visit the museum site for more info</span></a>
-                    </div>
-                </div>
-
-                <!-- The Pacific Cultures Modal -->
-                <div id="pacificModal" class="modal">
-                    <div class="modal-content">
-                        <span class="close-button">&times;</span>
-                        <h4 align="center">PACIFIC CULTURES</h4>
-                        <div class="caption">People and cultures across Oceania
-                            History
-
-                            New Zealand has strong links, both past and present, with the peoples and cultures of Polynesia, Micronesia and Melanesia.
-
-                            This gallery celebrates these links through a significant collection of objects, including the only moai statue from Rapa Nui (Easter Island) in New Zealand.
-                        </div>
-                        <img src="Pictures/pacific.jpg" alt="Pacific">
-                        <a href="http://otagomuseum.nz/whats-on/see/gallery/pacific-cultures" itemprop="url"><span itemprop="name">Visit the museum site for more info</span></a>
-                    </div>
-                </div>
-
-                <!-- The Special Exhibitions Gallery Modal -->
-                <div id="specialModal" class="modal">
-                    <div class="modal-content">
-                        <span class="close-button">&times;</span>
-                        <h4 align="center">SPECIAL EXHIBITIONS GALLERY</h4>
-                            <div class="caption">The exhibition 150 years in the making.
-                            Otago Museum marks its 150th anniversary on 12 September. To celebrate, we're thrilled to announce est. 1868.
-                        </div>
-                        <img src="Pictures/special.png" alt="Special">
-                        <a href="http://otagomuseum.nz/whats-on/see/exhibition/est-1868" itemprop="url"><span itemprop="name">Visit the museum site for more info</span></a>
-                    </div>
-                </div>
-
-                <!-- The Barclay Theatre Modal -->
-                <div id="barclayModal" class="modal">
-                    <div class="modal-content">
-                        <span class="close-button">&times;</span>
-                        <h4 align="center">BARCLAY THEATRE</h4>
-                        <div class="caption">This comfortable, contemporary theatre with fixed lecture-style seating links to the Museum Atrium.
-
-                            Suitable for:
-
-                            Conferences; lectures; presentations.
-
-                            Capacity:
-
-                            Theatre: 72</div>
-                        <img src="Pictures/barclay.jpg" alt="Barclay">
-                        <a href="http://otagomuseum.nz/venues/venue/barclay-theatre" itemprop="url"><span itemprop="name">Visit the museum site for more info</span></a>
-                    </div>
-                </div>
-
-                <!-- The 1877 Gallery Modal -->
-                <div id="eighteenModal" class="modal">
-                    <div class="modal-content">
-                        <span class="close-button">&times;</span>
-                        <h4 align="center">1877 GALLERY</h4>
-                        <div class="caption">This comfortable, contemporary theatre with fixed lecture-style seating links to the Museum Atrium.
-
-                            Suitable for:
-
-                            Conferences; lectures; presentations.
-
-                            Capacity:
-
-                            Theatre: 72</div>
-                        <img src="Pictures/1877.jpg" alt="1877">
-                        <a href="http://otagomuseum.nz/venues/other-occasions/" itemprop="url"><span itemprop="name">Visit the museum site for more info</span></a>
-                    </div>
-                </div>
-
-
+                <p>Your science centre admission ticket also provides access to the multi-screen, laser-activated, Beautiful Science gallery. You can also combine your science centre experience with a planetarium show with our special Tūhura combo deals.</p>
+                <img src="Pictures/tuhura.jpg" alt="Tuhura">
+                <a href="http://otagomuseum.nz/whats-on/do/tuhura/" itemprop="url"><span itemprop="name">Visit the museum site for more info</span></a>
             </div>
-            </body>
+        </div>
 
-            </script>
+        <!-- The Tropical Forest Modal -->
+        <div id="tropicalModal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h4 align="center">TROPICAL FOREST</h4>
+                <h5 class="ticketWarning">TICKETS MUST BE PURCHASED FROM THE GROUND FLOOR RECEPTION</h5>
+                <div class="caption">Tūhura’s Tropical Forest is the only three-tier live butterfly experience in Australasia! 
+                    At around 28 degrees and 75% humidity year-round, it’s warm and welcoming. 
+
+                    Encounter exotic butterflies, giant stick insects, tarantulas, terrapins and other rainforest dwellers –  it’s a world away but right here in Dunedin. 
+
+                    Buy your Tūhura science centre tickets at the Otago Museum Shop.</div>
+                <img src="Pictures/tropical.jpg" alt="Tropical">
+                <a href="http://otagomuseum.nz/whats-on/do/tuhura/tropical-forest/" itemprop="url"><span itemprop="name">Visit the museum site for more info</span></a>
+            </div>
+        </div>
+
+        <!-- The Planetarium Modal -->
+        <div id="planetariumModal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h4 align="center">PERPETUAL GUARDIAN PLANETARIUM</h4>
+                <h5 class="ticketWarning">TICKETS MUST BE PURCHASED FROM THE GROUND FLOOR RECEPTION</h5>
+                <div class="caption">Tour the universe in the laid-back comfort in our state-of-the-art dome. Be immersed in the deep past or alien worlds, or closer to home, take a guided look at our southern skies.
+                    Book your planetarium show online or at the Otago Museum Shop.
+                    Visit both the Perpetual Guardian Planetarium and Tūhura Otago Community Trust Science Centre, which includes our iconic butterfly-filled Tropical Forest, with a combo deal!</div>
+                <img src="Pictures/planetarium.jpg" alt="Planetarium">
+                <a href="http://otagomuseum.nz/whats-on/do/tuhura/planetarium/" itemprop="url"><span itemprop="name">Visit the museum site for more info</span></a>
+            </div>
+        </div>
+
+        <!-- The Beautiful Science Modal -->
+        <div id="beautifulModal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h4 align="center">BEAUTIFUL SCIENCE GALLERY</h4>
+                <h5 class="ticketWarning">TICKETS MUST BE PURCHASED FROM THE GROUND FLOOR RECEPTION</h5>
+                <div class="caption">Tour the universe in the laid-back comfort in our state-of-the-art dome. Be immersed in the deep past or alien worlds, or closer to home, take a guided look at our southern skies.
+                    Book your planetarium show online or at the Otago Museum Shop.
+                    Visit both the Perpetual Guardian Planetarium and Tūhura Otago Community Trust Science Centre, which includes our iconic butterfly-filled Tropical Forest, with a combo deal!</div>
+                <img src="Pictures/beautiful.jpg" alt="Beautiful">
+                <a href="http://otagomuseum.nz/whats-on/do/tuhura/planetarium/" itemprop="url"><span itemprop="name">Visit the museum site for more info</span></a>
+            </div>
+        </div>
+
+        <!-- The Pacific Cultures Modal -->
+        <div id="pacificModal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h4 align="center">PACIFIC CULTURES</h4>
+                <div class="caption">People and cultures across Oceania
+                    History
+
+                    New Zealand has strong links, both past and present, with the peoples and cultures of Polynesia, Micronesia and Melanesia.
+
+                    This gallery celebrates these links through a significant collection of objects, including the only moai statue from Rapa Nui (Easter Island) in New Zealand.
+                </div>
+                <img src="Pictures/pacific.jpg" alt="Pacific">
+                <a href="http://otagomuseum.nz/whats-on/see/gallery/pacific-cultures" itemprop="url"><span itemprop="name">Visit the museum site for more info</span></a>
+            </div>
+        </div>
+
+        <!-- The Special Exhibitions Gallery Modal -->
+        <div id="specialModal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h4 align="center">SPECIAL EXHIBITIONS GALLERY</h4>
+                <div class="caption">The exhibition 150 years in the making.
+                    Otago Museum marks its 150th anniversary on 12 September. To celebrate, we're thrilled to announce est. 1868.
+                </div>
+                <img src="Pictures/special.png" alt="Special">
+                <a href="http://otagomuseum.nz/whats-on/see/exhibition/est-1868" itemprop="url"><span itemprop="name">Visit the museum site for more info</span></a>
+            </div>
+        </div>
+
+        <!-- The Barclay Theatre Modal -->
+        <div id="barclayModal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h4 align="center">BARCLAY THEATRE</h4>
+                <div class="caption">This comfortable, contemporary theatre with fixed lecture-style seating links to the Museum Atrium.
+
+                    Suitable for:
+
+                    Conferences; lectures; presentations.
+
+                    Capacity:
+
+                    Theatre: 72</div>
+                <img src="Pictures/barclay.jpg" alt="Barclay">
+                <a href="http://otagomuseum.nz/venues/venue/barclay-theatre" itemprop="url"><span itemprop="name">Visit the museum site for more info</span></a>
+            </div>
+        </div>
+
+        <!-- The 1877 Gallery Modal -->
+        <div id="eighteenModal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h4 align="center">1877 GALLERY</h4>
+                <div class="caption">This comfortable, contemporary theatre with fixed lecture-style seating links to the Museum Atrium.
+
+                    Suitable for:
+
+                    Conferences; lectures; presentations.
+
+                    Capacity:
+
+                    Theatre: 72</div>
+                <img src="Pictures/1877.jpg" alt="1877">
+                <a href="http://otagomuseum.nz/venues/other-occasions/" itemprop="url"><span itemprop="name">Visit the museum site for more info</span></a>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</script>
