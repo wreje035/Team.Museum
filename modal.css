@@ -12,7 +12,7 @@ a:hover {
     text-decoration: underline;
 }
 body {
-  font-family: "Arial", sans-serif;
+  font-family: Avenir-Book, Avenir;
   color: rgb(160,160,160);
   font-size: 12px;
 }
@@ -20,7 +20,15 @@ h4 {
     font-size: 16px;
 }
 
+h5 {
+    font-size: 14px;
+    colour: red;
+}
 
+h3 {
+    text-align: center;
+    
+}
 
 .modal {
     position: fixed;
@@ -47,7 +55,9 @@ h4 {
     border-radius: 0.5rem;
     text-align: justify;
     border: 1px solid black;
-    
+    font-family: Avenir-Book, Avenir;
+    font-size: 12px;
+    color: black;
 }
 .modal-content img {
     width: 14.5rem;
@@ -89,4 +99,12 @@ h4 {
     -webkit-perspective: 1000px;
     perspective: 1000px;
     position: absolute;
+}
+
+.exhibit {
+    text-align:center;
+    font-size: 16px;
+    color: black;
+    font: a
+    
 }
