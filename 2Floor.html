@@ -4,16 +4,35 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="modal.css">
         <script type="text/javascript" src="modal.js"></script>
+		<script type="text/javascript" src="buttons.js"></script>
         <title>2/3 Floor </title>
     </head>
     <body>
-        <!-- Drop Down Box for Floor Selection -->
-        <form>
-            <input type="button" value="Ground" onclick="window.location.href = 'GFloor.html'" />
-            <input type="button" value="First" onclick="window.location.href = '1Floor.html'" />
-            <input type="button" value="Second/Third" onclick="window.location.href = '2Floor.html'" />
-            <input type="button" value="Animal Attic" onclick="window.location.href = 'AAFloor.html'" />
-        </form>
+        	
+	<div class="dropdown" style="float:right;">
+		<button class="dropbtn">Find a Gallery</button>
+		<div class="dropdown-content">
+			<a href="AAFloor.html">Animal Attic</a>
+			<a href="2Floor.html">Maritime</a>
+			<a href="2Floor.html">Nature</a>
+			<a href="1Floor.html">Pacific Cultures</a>
+			<a href="2Floor.html">People of the World</a>
+			<a href="1Floor.html">Perpetual Guardian Planetarium</a>
+			<a href="GFloor.html">Sir Edmund Hillary Collection</a>
+			<a href="2Floor.html">Southern Land, Southern People</a>
+			<a href="1Floor.html">Tangata Whenua</a>
+			<a href="1Floor.html">Tuhura Otago Community Trust Science Centre</a>
+			<a href="1Floor.html">Special Exhibitions</a>
+		</div>
+	</div
+
+	<!-- Buttons for Floor Selection -->
+	<form>
+		<input type="button" class="button" value="Ground" onclick="window.location.href = 'GFloor.html'" />
+		<input type="button" class="button" value="First" onclick="window.location.href = '1Floor.html'" />
+		<input type="button" class="button" value="Second/Third" onclick="window.location.href = '2Floor.html'" />
+		<input type="button" class="button" value="Animal Attic" onclick="window.location.href = 'AAFloor.html'" />
+	</form>
        
 <svg xmlns="http://www.w3.org/2000/svg" id="map" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 606.94 426.11">
   <defs>
