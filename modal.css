@@ -154,9 +154,9 @@ h3 {
 }
 
 .button {
-    background-color: #4CAF50;
+    background-color: #C9EBFC;
     border: none;
-    color: white;
+    color: black;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -170,5 +170,6 @@ h3 {
 }
 
 #selected {
-	background-color: red;
+	background-color: #F16F92;
+        color: white;
 }
