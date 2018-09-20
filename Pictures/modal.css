@@ -4,17 +4,17 @@
 }
 a {
     color: blue;
-  
-    
+
+
 }    
 a:hover {
     color: green;
     text-decoration: underline;
 }
 body {
-  font-family: Avenir-Book, Avenir;
-  color: rgb(160,160,160);
-  font-size: 12px;
+    font-family: Avenir-Book, Avenir;
+    color: rgb(160,160,160);
+    font-size: 12px;
 }
 h4 {
     font-size: 16px;
@@ -27,7 +27,7 @@ h5 {
 
 h3 {
     text-align: center;
-    
+
 }
 
 .modal {
@@ -41,10 +41,10 @@ h3 {
     visibility: hidden;
     transform: scale(1.1);
     transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
-  
+
 }
 .modal-content {
-    
+
     position: absolute;
     top: 50%;
     left: 50%;
@@ -70,7 +70,7 @@ h3 {
     cursor: pointer;
     border-radius: 0.25rem;
     font-size: 20px;
-    
+
 }
 .close-button:hover {
     background-color: darkgray;
@@ -106,7 +106,7 @@ h3 {
     font-size: 16px;
     color: black;
     font: a
-    
+
 }
 
 .dropbtn {
@@ -161,3 +161,17 @@ h3 {
     margin: 4px 2px;
     cursor: pointer;
 }
+
+.blocks {
+    display: blocks;
+    clear: both;
+    float: left;
+}
+
+.wheelchairbutton {
+    left: 0;
+    margin-left: 50px;
+    position: absolute;
+    bottom: 10px;
+}
+
