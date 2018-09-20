@@ -1,0 +1,163 @@
+#content {
+    width:800px;
+    margin:auto;
+}
+a {
+    color: blue;
+  
+    
+}    
+a:hover {
+    color: green;
+    text-decoration: underline;
+}
+body {
+  font-family: Avenir-Book, Avenir;
+  color: rgb(160,160,160);
+  font-size: 12px;
+}
+h4 {
+    font-size: 16px;
+}
+
+h5 {
+    font-size: 14px;
+    colour: red;
+}
+
+h3 {
+    text-align: center;
+    
+}
+
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+  
+}
+.modal-content {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 0.5rem 1.0rem;
+    width: 15rem;
+    border-radius: 0.5rem;
+    text-align: justify;
+    border: 1px solid black;
+    font-family: Avenir-Book, Avenir;
+    font-size: 12px;
+    color: black;
+}
+.modal-content img {
+    width: 14.5rem;
+}
+.close-button {
+    float: right;
+    width: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    font-size: 20px;
+    
+}
+.close-button:hover {
+    background-color: darkgray;
+}
+.show-modal {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+
+
+.ticketWarning {
+    color: red;
+}
+
+#map {
+    margin-top: 5vh;
+    width: 90vw;
+    height: 90vh;
+    margin-left: 5vw;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    position: absolute;
+}
+
+.exhibit {
+    text-align:center;
+    font-size: 16px;
+    color: black;
+    font: a
+    
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
