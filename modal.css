@@ -173,3 +173,16 @@ h3 {
 	background-color: #F16F92;
         color: white;
 }
+
+.blocks {
+    display: blocks;
+    clear: both;
+    float: left;
+}
+
+.wheelchairbutton {
+    left: 0;
+    margin-left: 5px;
+    position: absolute;
+    bottom: 5px;
+}
